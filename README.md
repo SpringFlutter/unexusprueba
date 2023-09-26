@@ -1,5 +1,5 @@
 # unexusprueba
-## En el archibo base.sql se encuentra el modelo de base de datos
+## En el archibo base.sql se encuentra el modelo de base de datos. Un cliente puede tener varias sucursales 
 ### API
 POST http://localhost:8080/cliente/insertar
 ```json
@@ -8,7 +8,7 @@ POST http://localhost:8080/cliente/insertar
     "razonSocial": "cliente unexus",
     "clienteSucursalUnexus": [
         {
-            "direccion": "Ibarra"
+            "direccion": "Ibarra" // Sucursal principal
         }
     ]
 }

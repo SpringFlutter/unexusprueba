@@ -21,3 +21,13 @@ PUT http://localhost:8080/cliente/actualizar/datos
     "razonSocial": "cliente unexus actualizado"
 }
 ```
+PUT http://localhost:8080/cliente/insertar/nueva/direccion
+```json
+{
+    "idClienteUnexus":1,
+    "direccion": "Urcuqui"
+}
+```
+DELETE http://localhost:8080/cliente/eliminar/{idClienteUnexus}
+GET http://localhost:8080/cliente/obtener/direcciones/{idClienteUnexus}
+GET  http://localhost:8080/cliente/obtener/datos/{rucrazon}
